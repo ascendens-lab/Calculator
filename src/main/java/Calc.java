@@ -5,7 +5,6 @@ public class Calc {
         String numbers = "1234";
         IO.print(sum(numbers));
     }
-
     static int sum(int a, int b) {
         return a + b;
     }
@@ -20,6 +19,7 @@ public class Calc {
 
     static int sum(String num) {
         int sum = 0;
+
 
         for (int i = 0; i < num.length(); i++) {
             if (Character.isDigit(num.charAt(i))) ;
