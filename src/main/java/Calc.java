@@ -24,7 +24,6 @@ public class Calc {
             if (Character.isDigit(num.charAt(i))) ;
             sum += num.charAt(i)-48;// ASCII 48 är samma som Char 0.
 
-
             /*Alt
             sum += num.charAt(i)-'0'; Enkla citattecknet runt 0 talar om för kompilatorn:
             "Detta är ett enskilt tecken, behandla det som en char".
