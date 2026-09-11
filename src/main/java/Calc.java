@@ -20,7 +20,6 @@ public class Calc {
     static int sum(String num) {
         int sum = 0;
 
-
         for (int i = 0; i < num.length(); i++) {
             if (Character.isDigit(num.charAt(i))) ;
             sum += num.charAt(i)-48;// ASCII 48 är samma som Char 0.
